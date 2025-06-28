@@ -1,0 +1,183 @@
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    background-color: #1a202c; 
+    color: #a0aec0; 
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    background-color: #2d3748; 
+    padding: 30px 40px;
+    border-radius: 8px;
+    border:1px solid #4a5568; 
+    width:800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+h2, h3 {
+    color: #f7fafc; 
+    border-bottom: 1px solid #4a5568; 
+    padding-bottom:10px;
+    margin-top:0;
+}
+a {
+    color: #38a169; 
+    text-decoration: none;
+    font-weight:bold;
+}
+a:hover {
+    text-decoration:underline;
+}
+
+form { margin-top:20px;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="file"],
+form textarea,
+form select {
+    width: 100%;
+    padding:10px;
+    margin-bottom:15px;
+    border:1px solid #4a5568; 
+    border-radius:4px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #1a202c; 
+    color: #a0aec0; 
+}
+
+
+form textarea {
+    min-height:100px;
+    resize: vertical;
+}
+
+
+form input:focus, form textarea:focus, form select:focus {
+    outline: 2px solid #38a169; 
+}
+
+
+
+.btn, form input[type="submit"] {
+    background-color: #38a169; 
+    color: #ffffff;
+    padding: 12px 20px;
+    border: none;
+    border-radius:4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btn:hover,
+form input[type="submit"]:hover {
+    background-color: #2f855a; 
+}
+
+.btn-delete {
+    background-color:#c53030; 
+}
+
+.btn-delete:hover {
+    background-color: #9b2c2c;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    border: 1px solid #4a5568; 
+    text-align: left;
+}
+
+table thead {
+    background-color:  #1a202c; 
+    color: #f7fafc;
+    font-weight: bold;
+}
+table tbody tr:nth-child(even) {
+    background-color: #283141; 
+}
+table tbody tr:hover {
+    background-color: #3c4a60;
+}
+.message {
+    color: #ffffff;
+    background-color: #2f855a; 
+    border: 1px solid #38a169;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+.error {
+    color: #ffffff;
+    background-color: #9b2c2c; 
+    border: 1px solid #c53030;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+.main-menu ul {
+    list-style:none;
+    padding: 0;
+}
+.main-menu li a {
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+.main-menu li a:hover {
+    background-color: #1a202c;
+    text-decoration: none;
+}
+#timer {
+    font-size: 2em;
+    color: #38a169; 
+    position: fixed;
+    top: 20px;
+    right: 30px;
+    background-color:  #1a202c;
+    border: 1px solid #4a5568;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+.question {
+    background-color: #1a202c; 
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid  #4a5568;
+}
+
+.question h4 {
+    color: #f7fafc;
+    margin-top: 0;
+}
+
+
+
+.action-buttons {
+    display: flex;
+}
+
+.action-buttons .btn {
+    margin-right: 5px;
+}
